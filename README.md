@@ -1,1 +1,18 @@
-# satishjs
+<html>
+  <head>
+      <title> Password Show and Hide </title>
+  </head>
+<body>
+Pasword : <input type="password" name="password" id="password" />
+
+<br/>
+<br />
+
+<input type="checkbox" id="eye" onclick="if(password.type=='text')password.type='password'; else password.type='text';"/>Show Password
+
+
+</body>
+
+</html>
+
+//it is show password toggle effect for login window
